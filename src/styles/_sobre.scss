@@ -1,0 +1,26 @@
+@use 'variaveis';
+
+.sobre {
+    padding: 5.6vw;
+    height: 100vh;
+    background-color: variaveis.$corDeFundo;
+
+    h1{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 32px;
+        margin-bottom: 56px;
+        text-align: center;
+    }
+
+    &__item {
+        font-size: 28px;
+        color: variaveis.$corFontePrincipal;
+        text-shadow: 2px 2px variaveis.$corFonteSecundaria;
+        text-align: center;
+        list-style: none;
+    }
+}

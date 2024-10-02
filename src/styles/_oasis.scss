@@ -1,0 +1,23 @@
+@use 'variaveis';
+
+.oasis {
+    background-color: variaveis.$corDeFundo;
+    padding: 5.6vw;
+    padding-top: 45px;
+    text-align: center;
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    &__img {
+        width: 1080px;
+        border-radius: 10%;
+        padding-bottom: 40px;
+
+        @media (max-width: 1023px) {
+            width: 90vw;
+        }
+    }
+}

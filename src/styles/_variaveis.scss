@@ -1,0 +1,22 @@
+$corDeFundo: #1a1a1a;
+$corFontePrincipal: #00ffff;
+$corFonteSecundaria: #eb03bd;
+$corTextoGeral: #fff;
+
+h1, h2 {
+    font-size: 58px;
+    color:$corFontePrincipal;
+    text-shadow: 4px 4px $corFonteSecundaria;
+}
+
+.subTitle {
+    font-size: 12px;
+    color: $corFontePrincipal;
+    text-shadow: 1px 1px $corFonteSecundaria;
+    text-decoration: underline;
+    padding-top: 16px;
+}
+
+p {
+    color: #fff;
+}

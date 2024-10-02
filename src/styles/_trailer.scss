@@ -1,0 +1,23 @@
+@use 'variaveis';
+
+.trailer {
+    display: block;
+    align-items: center;
+    overflow: hidden;
+    background-color: variaveis.$corDeFundo;
+    padding-bottom: 40px;
+
+    @media (max-width: 1023px) {
+        display: none;
+    }
+
+    &__title {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .trailer-video {
+        position: relative;
+        left: 25%;
+    }
+}

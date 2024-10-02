@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogador Nº1</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#hero">Home</a>
+                </li>
+            </ul>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#sobre">Sobre</a>
+                </li>
+            </ul>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#trailer">Trailer</a>
+                </li>
+            </ul>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#personagens">Personagens</a>
+                </li>
+            </ul>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#oasis">O OASIS</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Jogador Nº1</h1>
+        <p class="subTitle">Uma aventura eletrizante no universo digital</p>
+        </div>
+    </section>
+    <section id="sobre" class="sobre">
+        <h1>Sobre o Filme</h1>
+        <p>
+            Em um futuro distópico, Wade Watts se aventura no OASIS, um mundo virtual, em busca do legado de seu criador, James Halliday. Competindo contra adversários e desvendando enigmas repletos de referências dos anos 80, Wade luta para conquistar a fortuna e o controle do OASIS, buscando escapar da opressão do mundo real.
+        </p>
+        <ul>
+            <li class="sobre__item">Direção</li>
+            <p> <b>Steven Spielberg</b> com Tye Sheridan, Olivia Cooke, Ben Mendelsohn.</p>
+            <li class="sobre__item">Lançamento</li>
+            <p>2018</p>
+            <li class="sobre__item">Duração</li>
+            <p>2h20m</p>
+        </ul>
+    </section>
+
+<section id="trailer" class="trailer">
+    <h1 class="trailer__title">Assista ao Trailer</h1>
+    <div class="trailer-video">
+        <iframe width="720" height="480" src="https://www.youtube.com/embed/_BHmun-2sq0?si=5sYUTq1AijXzcUaG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section id="personagens" class="personagens">
+    <h1 class="personagens__title">Personagens</h1>
+    <div class="images">
+    <img id="parzival" class="images__image" src="./dist/images/parzival.jpg" alt="Parzival">
+    <img id="artemis" class="images__image" src="./dist/images/artemis.jpeg" alt="Art3mis">
+    <img id="anorak" class="images__image" src="./dist/images/anorak.jpg" alt="Anorak">
+    <img id="nolan" class="images__image" src="./dist/images/nolan.jfif" alt="Nolan Sorrento">
+    </div> 
+    <dialog id="modalParzival">
+        <h2>Wade Watts / Parzival</h2>
+        <p>Protagonista do filme, Wade é um jovem que participa da busca pelo "Easter Egg" escondido no OASIS, um vasto mundo virtual, onde ele assume o avatar de Parzival.</p>
+        <button id="btnCloseParzival">X</button>
+    </dialog>
+    <dialog id="modalArtemis">
+        <h2>Art3mis / Samantha Cook</h2>
+        <p> Uma das principais concorrentes na busca pelo Easter Egg e interesse amoroso de Wade. Seu avatar é Art3mis.</p>
+        <button id="btnCloseArtemis">X</button>
+    </dialog>
+    <dialog id="modalAnorak">
+        <h2>James Halliday / Anorak</h2>
+        <p>O criador do OASIS. Após sua morte, ele deixou um enigma no jogo, prometendo sua fortuna e o controle do OASIS para quem o resolver.</p>
+        <button id="btnCloseAnorak">X</button>
+    </dialog>
+    <dialog id="modalNolan">
+        <h2>Nolan Sorrento</h2>
+        <p>CEO da IOI, uma corporação que quer assumir o controle do OASIS, e o principal antagonista do filme.</p>
+        <button id="btnCloseNolan">X</button>
+    </dialog>
+</section>
+
+<section id="oasis" class="oasis">
+    <h1>O OASIS</h1>
+    <img class="oasis__img" src="./dist/images/oasis.jpg" alt="OASIS">
+    <p>
+        O OASIS é uma realidade virtual massiva e imersiva, onde os limites entre fantasia e realidade se dissolvem. Nesse mundo digital, os usuários podem ser quem quiserem e fazer o que desejarem, viajando por incontáveis ambientes e dimensões, desde planetas alienígenas até recriações de cenários icônicos da cultura pop. Cada jogador pode customizar seu avatar, adquirir habilidades especiais e participar de desafios épicos, em um espaço onde a criatividade e a exploração são infinitas.
+    </p> <br><br>
+    <p>
+        Mais do que uma simples plataforma de entretenimento, o OASIS também se tornou um pilar econômico e social, substituindo muitas funções do mundo físico. Educação, trabalho e lazer se misturam em uma experiência unificada.
+    </p>
+</section>
+
+<footer class="footer">
+    &copy; Feito por Yuri.
+</footer>
+<script src="./dist/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+@use 'variaveis';
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    background-color: variaveis.$corDeFundo;
+    &__container {
+        padding: 8px 36px;
+        display: flex;
+        justify-content: space-around
+    }
+
+    &__links {
+        &__item {
+            margin: 5px;
+            list-style: none;
+
+            @media (max-width: 767px) {
+                font-size: 7px;
+                margin: none;
+            }
+
+            a{
+                text-decoration: none;
+                color: variaveis.$corFontePrincipal;
+                text-shadow: 2px 2px variaveis.$corFonteSecundaria;
+            }
+        }
+    }
+}
